@@ -1,3 +1,6 @@
+// started from : https://stackoverflow.com/questions/66947835/how-to-create-a-static-array-of-objects-that-implement-a-common-trait
+
+
 trait T { 
     fn get_name(&self) -> &str;
 }
